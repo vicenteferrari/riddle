@@ -1,6 +1,5 @@
 import itertools
 
-# print(f'{10:04}')
 
 def slice_as_str(N):
     ret = ''
@@ -35,13 +34,14 @@ def lists(n):
         denominator = slice_as_num(i[5:])
 
         if (numerator / denominator) == n:
-            count += 1
+            count = count + 1
             print(numerator_str + " / " + denominator_str + " = " + str(n))
 
     if count == 0:
         print("There are no solutions for N = " + N)
 
 
-N = input("N = ")
+N = int(input("N = "))
 
-lists(N)
+lists(2)
+

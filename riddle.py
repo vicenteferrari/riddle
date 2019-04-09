@@ -39,7 +39,8 @@ def lists(n):
             print(numerator_str + " / " + denominator_str + " = " + str(n))
 
     if count == 0:
-        print("There are no solutions for N")
+        print("There are no solutions for N = " + N)
+
 
 N = input("N = ")
 

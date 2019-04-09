@@ -41,5 +41,6 @@ def lists(n):
     if count == 0:
         print("There are no solutions for N")
 
-N = 80
+N = input("N = ")
+
 lists(N)
